@@ -43,11 +43,11 @@ All locatoins in all metaverses can be described as a set of vectors.
 
 These come with a certain supported actions. 
 
-$meta.owner - returns the owner of the metaverse
+'$meta.owner' - returns the owner of the metaverse
 
-$meta.insert - inserts an object inside the active metaverse
+    $meta.insert - inserts an object inside the active metaverse
 
-$meta.created - inserts an object inside the active metaverse
+    $meta.created - inserts an object inside the active metaverse
 
 $meta.children - notes the presence of child metaverses and their locations 
 
