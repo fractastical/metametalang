@@ -26,32 +26,35 @@ It exists with the following intentions:
 For metametalang there is one primary native object:
 
 
-$meta - represents the active metaverse
+    $meta - represents the active metaverse
 
 
 
-For metametalang there is also one default coordiate system:
+For metametalang there is also one default coordinate system:
 
-/1.3.5.0 - this represeents x coordinates, y coodinates, z coordinates, and zoom level
+    /1.3.5.0 - this represeents x coordinates, y coodinates, z coordinates, and zoom level
 
 It can also be appended, which also works as passing a set of vectors: /1.3.5.0/1.3.2.1/2.3.3.0 
 
-All locatoins in all metaverses can be described as a set of vectors. 
+All locations in all metaverses can be described as a set of vectors. 
 
 
 
 
 These come with a certain supported actions. 
 
-'$meta.owner' - returns the owner of the metaverse
 
+    $meta.owner - returns the owner of the metaverse
+    
     $meta.insert - inserts an object inside the active metaverse
 
     $meta.created - inserts an object inside the active metaverse
 
-$meta.children - notes the presence of child metaverses and their locations 
+    $meta.children - notes the presence of child metaverses and their locations t
 
-$meta.zoom(coords) - take me to the child at this coordinates.  
+    $meta.zoom(coords) - take me to the child at these coordinates. By default goes to the first child. 
+
+    $meta.go(coordinates) - go to these coordinates
 
 
 
